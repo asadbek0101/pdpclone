@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEF2F5;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 20px;
+}
+header nav p{
+    font-size: 18px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #EEF2F5;
+    border-radius: 8px;
+    padding: 8px 34px;
+}
+
+/* Kirish sectioni */
+
+#Kirish{
+    display: flex;
+    width: 100%;
+
+}
+#Kirish .container .top{
+    width: 100%;
+    display: flex;
+}
+#Kirish .container .top h1{
+    width: 60%;
+    font-size: 55px;
+    padding: 100px 0;
+
+}
+#Kirish .container .top .img{
+    width: 40%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+#Kirish .container .top .img img{
+    width: 70%;
+}
+#Kirish .container .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+#Kirish .container .bottom .card{
+    padding: 60px 40px;
+    box-shadow: 0 0 2px 2px rgb(196, 192, 192);
+    padding-right: 100px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+}
+#Kirish .container .bottom .card a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 38px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: .5s;
+}
+#Kirish .container .bottom .card a:hover{
+    background-color: green;
+}
+
+
+
+
+/* bootcamp sectioni */
+
+#bootcamp{
+    width: 100%;
+}
+#bootcamp .container .top{
+    width: 100%;
+    padding-top: 140px;
+
+}
+#bootcamp .container .top h1{
+    font-size: 45px;
+}
+#bootcamp .container .top p{
+    width: 80%;
+    font-size: 25px;
+    line-height: 2;
+}
+
+#bootcamp .container .cardlar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+#bootcamp .container .cardlar .card{
+    width: 30%;
+    box-shadow: 0 0 4px 2px rgb(136, 135, 135);
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: .5s;
+    border-radius: 4px;
+    background-color: white;
+}
+#bootcamp .container .cardlar .card:hover{
+    transform: scale(1.03);
+}
+#bootcamp .container .cardlar .card .rasm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+#bootcamp .container .cardlar .card h1{
+    padding-left: 40px;
+    margin: 0;
+    
+}
+#bootcamp .container .cardlar .card p{
+    padding-left: 40px;
+    padding-right: 60px;
+    color: rgb(124, 117, 117);
+}
+.img1{
+    transform: translateY(-30px) translateX(40px);
+}
+.img2{
+    transform: translateY(-73px) translateX(-47px);   
+}
+.img3{
+    transform: translateY(-50px) translateX(47px);   
+}
+.img4{
+    transform: translateY(-8px) translateX(-50px);
+}
+.img5{
+    transform: translateY(-80px) translateX(40px);
+    z-index: 10;
+}
+.img6{
+    transform: translateY(40px) translateX(-74px);   
+}
+
+
+
+/* mutaxassislik sectioni */
+
+#mutaxassislik h1{
+        font-size: 25px;
+}
+#mutaxassislik .info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    
+}
+
+
+#mutaxassislik .left{
+    width: 50%;
+   
+    padding: 40px 0;
+}
+#mutaxassislik .left h4{
+    border-bottom: 2px solid rgb(161, 161, 161);
+    padding: 20px;
+    
+}
+#mutaxassislik .left h4 i{
+    padding-right: 20px;
+   
+}
+#mutaxassislik .rigth{
+    width: 50%;
+     
+    padding: 40px 0;
+
+}
+#mutaxassislik .info p{
+    border-bottom: 2px solid rgb(146, 140, 140);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 18px;
+}
+#mutaxassislik .info p img{
+    background-color: green;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+/* kurslar sectioni */
+#kurslar .s-e{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+
+
+}
+#kurslar .start{
+    width: 50%;
+    border-bottom: 2px solid rgb(151, 151, 151);
+}
+#kurslar .end{
+    width: 50%;
+    border-bottom: 2px solid rgb(151, 151, 151);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* personal sectioni */
+#personal{
+    width: 100%;
+    
+}
+#personal .tizimlar{
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        flex-wrap: wrap;
+}
+#personal .tizimlar .card{
+    padding: 0;
+    width: 48%;
+    text-align: center;
+    padding: 40px 60px;
+    background-color: white;
+    border-radius: 6px;
+}
+#personal .tizimlar .card img{
+    width: 50%;
+}
+#personal .tizimlar .card p{
+    line-height: 2;
+    color: rgb(151, 145, 145);
+}
+
+/* mentorlar sectioni */
+
+#mentorlar{
+    width: 100%;
+}
+
+#mentorlar .xodimlar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+#mentorlar .xodimlar .card{
+    width: 31%;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* hamkorlar sectioni */
+
+#hamkorlar{
+    width: 100%;
+
+}
+#hamkorlar .logolar{
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    flex-wrap: wrap;
+    
+} 
+#hamkorlar .logolar .rasmlar{
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid rgb(212, 205, 205);
+    transition: .5s;
+    border-radius: 6px;
+}
+#hamkorlar .logolar .rasmlar:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 5px 2px rgb(197, 197, 197);
+}
+/* yangiliklar sectioni */
+#yangiliklar .container{
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    border-radius: 10px;
+    padding-left: 80px;
+}
+#yangiliklar .yangi{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#yangiliklar .yangi a{
+    text-decoration: none;
+    color: black;
+    padding: 12px 28px;
+    background-color: #EEF2F5;
+    border-radius: 10px;
+}
+#yangiliklar .malumot{
+    display: flex;
+    gap: 60px;
+}
+#yangiliklar .malumot .info{
+    padding: 40px 0;
+}
+#yangiliklar .malumot .info h5{
+    font-size: 18px;
+}
+#yangiliklar .malumot .info p{
+    color: rgb(158, 158, 158);
+    line-height: 2;
+}
+#yangiliklar .malumot a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+    word-spacing: 40px;
+}
+/* tugadi sectioni */
+
+#tugadi{
+    width: 100%;
+    background-color: white;
+    padding-top: 40px;
+}
+#tugadi .top{
+    width: 100%;
+    display: flex;
+}
+#tugadi .left{
+    width: 50%;
+}
+#tugadi .top .rigth{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#tugadi .bottom{
+    margin-top: 60px;
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tugadi .bottom i{
+   width: 30px;
+   height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
